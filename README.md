@@ -1,12 +1,10 @@
 # VFE
 Variational Feature Encoder for Image Classifiers
 
-Transfer Learning (TL) plays a vital role in im-
-age classification systems based on Deep Convolutional Neural
+Transfer Learning (TL) plays a vital role in image classification systems based on Deep Convolutional Neural
 Networks (DCNNs). Systems employing such technique may be
 susceptible to distortions on images, motivating the development
-of robust DCNNs capable of facing these problems. Unfortu-
-nately, changes in the architecture of DCNNs are sometimes
+of robust DCNNs capable of facing these problems. Unfortunately, changes in the architecture of DCNNs are sometimes
 specific to a kind of distortion and result in models that need
 to be retrained from scratch. This work proposes the use of
 autoencoders as intermediaries between pre-trained DCNNs and
